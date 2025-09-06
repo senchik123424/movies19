@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #000000;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      margin: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104053758', 'ym');
+
+    ym(104053758, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/104053758" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7L47SZWYSP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7L47SZWYSP');
+</script>
+</head>
+<body>
+  <!-- Шапка с навигацией -->
+  <header>
+    <h1>Мой сайт-визитка</h1>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#services">Услуги</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#table">Таблица</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+ 
+
+  <!-- Блок "Обо мне" -->
+  <section id="about" style="padding:40px 20px;">
+    <h2>Обо мне</h2>
+    <p>Я веб-разработчик, увлечённый созданием простых и удобных сайтов.</p>
+  </section>
+
+  <!-- Портфолио (карточки) -->
+  <section id="portfolio" style="background:#f0f0f0; padding:40px 20px;">
+    <h2>Портфолио</h2>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:200px; background:white; padding:20px; box-shadow:0 0 5px rgba(0,0,0,0.1);">
+        <h3>Проект 1</h3>
+        <p>Описание проекта.</p>
+      </div>
+      <div style="flex:1; min-width:200px; background:white; padding:20px; box-shadow:0 0 5px rgba(0,0,0,0.1);">
+        <h3>Проект 2</h3>
+        <p>Описание проекта.</p>
+      </div>
+      <div style="flex:1; min-width:200px; background:white; padding:20px; box-shadow:0 0 5px rgba(0,0,0,0.1);">
+        <h3>Проект 3</h3>
+        <p>Описание проекта.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги (список) -->
+  <section id="services" style="padding:40px 20px;">
+    <h2>Услуги</h2>
+    <ul>
+      <li>Создание сайтов</li>
+      <li>Дизайн</li>
+      <li>SEO оптимизация</li>
+      <li>Поддержка и хостинг</li>
+    </ul>
+  </section>
+
+  <!-- Галерея (изображения) -->
+  <section id="gallery" style="background:#f0f0f0; padding:40px 20px;">
+    <h2>Галерея</h2>
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+      <img src="c7d3da48f59ac1872078f6de1d66dd2c.jpg" alt="img1" style="width:200px; height:auto;">
+      <img src="1c027402220c02ce2971a0ee69fb4cdf.jpg" alt="img2" style="width:200px; height:auto;">
+      <img src="a6e4ee163adc016b2d97097ec8fa1de2.jpg" alt="img3" style="width:200px; height:auto;">
+      <img src="e2c6eb0b48fc00f1304431bfbcacf50e.jpg" alt="img4" style="width:200px; height:auto;">
+    </div>
+  </section>
+
+  <!-- Таблица -->
+  <section id="table" style="padding:40px 20px;">
+    <h2>Таблица цен</h2>
+    <table border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse; width:100%;">
+      <tr style="background:#ddd;">
+        <th>Услуга</th>
+        <th>Описание</th>
+        <th>Цена</th>
+      </tr>
+      <tr>
+        <td>Сайт-визитка</td>
+        <td>Простой сайт на 1 страницу</td>
+        <td>5000 ₽</td>
+      </tr>
+      <tr>
+        <td>Интернет-магазин</td>
+        <td>С корзиной и оплатой</td>
+        <td>25000 ₽</td>
+      </tr>
+      <tr>
+        <td>SEO</td>
+        <td>Оптимизация под поисковики</td>
+        <td>10000 ₽</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Контакты (форма) -->
+  <section id="contact" style="background:#f0f0f0; padding:40px 20px;">
+    <h2>Связаться со мной</h2>
+    <form style="max-width:400px; margin:auto;">
+      <label>Имя:<br>
+        <input type="text" name="name" style="width:100%; padding:10px; margin-bottom:10px;">
+      </label>
+      <label>Email:<br>
+        <input type="email" name="email" style="width:100%; padding:10px; margin-bottom:10px;">
+      </label>
+      <label>Сообщение:<br>
+        <textarea name="message" rows="5" style="width:100%; padding:10px;"></textarea>
+      </label>
+      <br>
+      <button type="submit" style="padding:10px 20px; margin-top:10px;">Отправить</button>
+    </form>
+  </section>
+
+  <!-- Футер -->
+<footer style="background:#333; color:white; text-align:center; padding:20px;">
+    <p>© 2025 Мой сайт. Все права защищены.</p>
+  </footer>
+</body>
+</html>
